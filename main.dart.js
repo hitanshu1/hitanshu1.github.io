@@ -66360,7 +66360,7 @@ qI(a){return this.OT(a)},
 OT(a){var s=0,r=A.J(t.pK),q,p,o
 var $async$qI=A.F(function(b,c){if(b===1)return A.G(c,r)
 while(true)switch(s){case 0:s=3
-return A.K($.atB().o_("https://pixabay.com/api?key=46214649-ac994dcece1c04cfbc2765e86&image_type=photo&pretty=true&page="+a+"&per_page=20"),$async$qI)
+return A.K($.atB().o_("https://pixabay.com/api/?key=46214649-ac994dcece1c04cfbc2765e86&image_type=photo&pretty=true&page=1&per_page=20"),$async$qI)
 case 3:p=c
 o=p.a
 if(o===201||o===200){o=J.mc(t.j.a(J.aT(p.gMN(0),"hits")),new A.a_x(),t.yF)
